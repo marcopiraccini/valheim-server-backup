@@ -24,4 +24,4 @@ systemctl start valheimserver.service
 sleep 30s
 
 # check if service is running and post to discord if running or not
-systemctl is-active --quiet valheimserver.service >/dev/null 2>&1 && /usr/local/sbin/discord.sh --webhook-url="${discordwebhook}" --text "Valheim Server back ONLINE! Happy gaming!" || /usr/local/sbin/discord.sh --webhook-url="${discordwebhook}" --text "Valheim Server not started. Please check..."
+# systemctl is-active --quiet valheimserver.service >/dev/null 2>&1 && /usr/local/sbin/discord.sh --webhook-url="${discordwebhook}" --text "Valheim Server back ONLINE! Happy gaming!" || /usr/local/sbin/discord.sh --webhook-url="${discordwebhook}" --text "Valheim Server not started. Please check..."
