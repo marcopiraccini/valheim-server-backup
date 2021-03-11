@@ -1,7 +1,7 @@
 #!/bin/bash
 
 worldname="Cialthronesgard"
-now=$(date +"%d-%m-%Y")
+now=$(date +"%d-%m-%Y-%H-%M")
 
 # Stop the Service
 systemctl stop valheimserver.service
